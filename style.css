@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:wght@500&display=swap');
+
+
+body{
+    background: #FFFFFF;
+}
+.color1{
+    
+    background: #F34100;
+}
+.color2{
+    background: #192F71;
+}
+
+.color3{
+    background: #FFF9ED;
+}
+
+
+.text1{
+    color:#F34100;
+}
+.text2{
+    color:#192F71;
+}
+.text3{
+    color:#FFF9ED;
+}
+
+.font1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.font2{
+    font-family: 'Fraunces', serif;
+}
+.font3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+/* navbar */
+.btn-sign{
+    border: 2px solid #192F71;
+}
+.btn-login, .btn-sign{
+    width: 72px;
+    height: 40px;
+ 
+}
+.bgColor{
+    transition: all 1s;
+    background-color: #FFFFFF;
+    color: #192F71;
+}
+
+.bgColor2{
+    transition: all 1s;
+    background-color: #192F71;
+    color: #ffffff;
+}
+
+/* title */
+.heading{
+    font-size: 60px;
+}
+.heading2{
+    font-size: 35px;
+}
+.heading3{
+    font-size: 25px;
+}
+
+.download1, .download2{
+    width: 228px;
+    height: 60px;
+}
+.download2{
+    border: 2px solid #192F71;
+}
+
+.contact{
+    border: 2px solid #F34100;
+    width: 228px;
+    height: 60px;
+}
+
+/* people say about tindog  */
+.greatwords{
+    border-radius: 40px;
+    background: #FFFFFF;
+}
+
+/* pricing */
+.borders{
+    border: 2px solid #F34100;
+}
+.viewmore{
+    border: 2px solid #F34100;
+    width: 180px;
+    height: 45px;
+}
+
+/*animation */
+
+#about img{
+    animation: imgUp 0.7s linear infinite alternate;
+}
+
+#title .img1{
+    animation: imgUp 0.7s linear infinite alternate;
+}
+
+@keyframes imgUp{
+    to{
+        transform: translateY(10px);
+    }  
+}
+
+#whytindog .img1{    
+    animation: imgJump 0.9s linear infinite alternate;
+    animation-delay: 1s;
+}
+
+#whytindog .img2{
+    animation: imgJump 0.9s linear infinite alternate;
+    animation-delay: 2s;
+}
+
+#whytindog .img3{
+    animation: imgJump 0.9s linear infinite alternate;
+    animation-delay: 3s;
+}
+@keyframes imgJump{
+    to{
+        transform: translateY(-10px);
+    }
+}
